@@ -1,6 +1,6 @@
 import './App.css';
 import Bedroom from './components/Bedroom.js';
-function App() {
+export default function App() {
   return (
     <div className="App">
         <Bedroom height={200} width={300} />
@@ -8,5 +8,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

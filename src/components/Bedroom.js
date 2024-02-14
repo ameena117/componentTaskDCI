@@ -1,13 +1,10 @@
-import '../App.css';
-
-function Bedroom({ height, width }) {
+export default function Bedroom({ height, width }) {
   return (
     <div
       className="bedRoomComponent"
       style={{
         width: width,
         height: height,
-        
       }}
     >
       <h1>height: {height}</h1>
@@ -15,5 +12,3 @@ function Bedroom({ height, width }) {
     </div>
   );
 }
-
-export default Bedroom;
