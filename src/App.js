@@ -1,5 +1,5 @@
 import './App.css';
-import Bedroom from './components/Bedroom.js';
+import Bedroom from './components/Bedroom/index.js';
 export default function App() {
   return (
     <div className="App">
